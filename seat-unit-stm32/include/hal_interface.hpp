@@ -2,7 +2,7 @@
 #include <cstdint>
 
 class IHalInterface {
-    pubic: 
+    public: 
     virtual void setLed(bool on) = 0;
     virtual void sendUartMessage(const char* message) = 0;
     virtual uint32_t getCurrentTimeMs()= 0;
